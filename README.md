@@ -1,1 +1,3 @@
 # dotfiles
+
+prereqs and dependencies:
