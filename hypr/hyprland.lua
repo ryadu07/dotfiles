@@ -145,7 +145,7 @@ hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("~/.config/rofi/launchers/type-1/launcher.sh || pkill rofi"))
 hl.bind("SUPER + N", hl.dsp.exec_cmd("kitty -e ~/.config/waybar/scripts/network"))
 hl.bind("SUPER + B", hl.dsp.exec_cmd("kitty -e ~/.config/waybar/scripts/bluetooth"))
-hl.bind("SUPER + return", hl.dsp.exec_cmd("swaync-client -t -sw"))
+--hl.bind("SUPER + return", hl.dsp.exec_cmd("swaync-client -t -sw"))
 
 --hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 --hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
